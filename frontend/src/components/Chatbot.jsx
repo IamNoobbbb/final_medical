@@ -83,6 +83,9 @@ const Chatbot = () => {
             </button>
           </div>
           <div className="flex-1 p-4 overflow-y-auto max-h-60">
+            <p className="text-gray-600">Health is Wealth</p>
+          </div>
+          <div className="flex-1 p-4 overflow-y-auto max-h-60">
             {/* Display Chat Messages */}
             {messages.map((message, index) => (
               <div
