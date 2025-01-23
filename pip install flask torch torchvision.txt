@@ -1,0 +1,5 @@
+pip install flask torch torchvision nltk flask_cors
+python
+>>>import nltk
+>>>nltk.dowmload('puntk')
+>>>nltk.download('puntk_tab')
