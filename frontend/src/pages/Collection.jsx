@@ -120,11 +120,11 @@ const Collection = () => {
             <p className='flex gap-2'>
               <input className='w-3' type="checkbox" value={'Skin Care'} onChange={toggleSubCategory}/> Skin Care
             </p>
-            <p className='flex gap-2'>
+           {/* <p className='flex gap-2'>
               <input className='w-3' type="checkbox" value={'Immune Boosters'} onChange={toggleSubCategory}/> Immune Boosters
-            </p>
+            </p>*/}
             <p className='flex gap-2'>
-              <input className='w-3' type="checkbox" value={'Specialized Prescriptions'} onChange={toggleSubCategory}/> Specialized Prescriptions
+              <input className='w-3' type="checkbox" value={'Specialized Prescription'} onChange={toggleSubCategory}/> Specialized Prescriptions
             </p>
           </div>
         </div>
